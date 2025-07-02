@@ -64,20 +64,19 @@
 }
 
 .service__card-container{
-    background: white;
-}
-
-.service__card_level-1,
-.service__card_level-2{
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 
     gap: 30px;
+    
+    flex-grow: 1;
+    column-gap: calc(100px / 4);
+    
+    padding-bottom: 30px;
 
-    transform: translate(0px, -110px);
-}
-
-.service__card_level-2{
-    margin-top: 30px;
+    background: #FFFFFF;
 }
 
 .service__card {

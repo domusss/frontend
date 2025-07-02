@@ -1,0 +1,153 @@
+.footer {
+    font-family: "Proxima Nova", sans-serif;
+
+    margin-top: 213px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 178px;
+    padding-bottom: 73px;
+
+    background: #000000;
+}
+
+.footer__logo {
+    position: absolute;
+
+    height: 183px;
+
+    transform: translateY(-300px);
+}
+
+.footer__connection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.footer__info-phone,
+.footer__info-pochta,
+.footer__info-location {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.ffooter__connection-block {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+
+    gap: 107px;
+    padding: 0;
+
+    
+}
+
+.footer__item-link {
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.footer__blank {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 32px;
+
+    color: #FFFFFF;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__blank-pochta {
+    width: 640px;
+    height: 61px;
+
+    font-weight: 400;
+    font-size: 21px;
+
+    background: #272727;
+    color: #5F5F5F;
+}
+
+.footer__blank-button {
+    width: 151px;
+    height: 44px;
+
+    border-style: none;
+
+    background: #E92129;
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 17px;
+    
+    cursor: pointer;
+
+    transform: translateY(-130%);
+}
+
+.footer__contact {
+    height: 89px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #E4252C;
+}
+
+.footer__social__network-block {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__contact-copyright {
+    font-weight: 400;
+    font-size: 21px;
+
+    color: #FFFFFF;
+}
+
+@media (max-width:1024px) {
+    .footer__list {
+        gap: 87px;
+    }
+
+    .footer__logo {
+        width: 600px;
+        height: 100px;
+    }
+
+    .footer__blank-pochta {
+        width: 579px;
+    }
+}

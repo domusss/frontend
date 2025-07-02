@@ -1,7 +1,6 @@
 /*Контейнерный стиль*/
 @import 'base/container.css';
 
-
 @import 'base/normalize.css';
 
 /*Стили блоков*/
@@ -18,3 +17,8 @@
 
 /* Шрифты */
 @import 'base/fonts.css';
+
+/* Форма */
+@import 'blocks/form.css';
+
+@import 'blocks/preloader.css';

@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>Nixxcol</title>
 </head>
 
+
 <body>
+
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
     <header class="header container">
         <img src="img/logo.png" alt="Логотип" class="header__logo-img">
         <nav class="header__nav">
@@ -82,82 +89,79 @@
             </div>
 
             <div class="service__card-container">
-                <div class="service__card_level-1">
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
+
+                <!-- <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
                     </div>
                 </div>
-                <div class="service__card_level-2">
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
-                        <div class="service__comment">
-                            <h2 class="service__card-title">Фирменный дизайн</h2>
-                            <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
-                                и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
-                                холодильник на Хэллоуин, фанаты.</p>
-                        </div>
+                <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
                     </div>
                 </div>
+                <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
+                    </div>
+                </div>
+                <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
+                    </div>
+                </div>
+                <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
+                    </div>
+                </div>
+                <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
+                    </div>
+                </div>
+                <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
+                    </div>
+                </div>
+                <div class="service__card">
+                    <img src="img/icons/lab.png" alt="Лабораторный Флакон" class="service__flacon-img">
+                    <div class="service__comment">
+                        <h2 class="service__card-title">Фирменный дизайн</h2>
+                        <p class="service__card-description">Благодарим вас за проявленный интерес к нашей компании
+                            и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
+                            холодильник на Хэллоуин, фанаты.</p>
+                    </div>
+                </div> -->
             </div>
         </section>
 
@@ -230,7 +234,7 @@
                 </div>
                 <div class="testimonial__slider-card testimonial-card-2">
                     <div class="card__content">
-                        <img src="img/MikeIcon.png" alt="Майк" class="testimonial__icon-img">
+                        <img src="img/people2.png" alt="Майк" class="testimonial__icon-img">
                         <h2 class="testimonial__text-name">Майк</h2>
                     </div>
                     <p class="testimonial__card-description">“Морковка Lorem ipsum, расширенный конкурс среди студентов.
@@ -293,7 +297,7 @@
         </section>
 
     </main>
-    
+
     <footer class="footer container">
         <div class="footer__content">
             <img src="img/icons/nixxsol.png" alt="Логотип" class="footer__logo">
@@ -327,7 +331,8 @@
                 <div class="footer__blank">
                     <h2 class="footer__title">Оставайтесь на связи</h2>
                     <form action="" class="footer__form">
-                        <input type="text" name="pochta" class="footer__blank-pochta" placeholder="Адрес почты" required>
+                        <input type="text" name="pochta" class="footer__blank-pochta" placeholder="Адрес почты"
+                            required>
                         <input type="button" value="Связаться с нами" class="footer__blank-button">
                     </form>
                 </div>
@@ -342,6 +347,29 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
+
+<form action="#" class="form__modal">
+    <div class="form__window-modal">
+        <h2 class="form__title">Зарегистрироваться</h2>
+        <div class="form__modal-background">
+            <div class="form__content">
+                <label for="name" class="form__label">Имя</label>
+                <input class="form__input" type="text" name="name" id="name" placeholder="Имя" required>
+                <label for="email" class="form__label">Почта</label>
+                <input class="form__input" type="email" name="email" id="email" placeholder="Почта" required>
+
+            </div>
+            <div class="form__content-button">
+                <input class="form__content-button-input form__content-button-input-submit" type="submit" value="ОК">
+                <input class="form__content-button-input form__content-button-input-cancellation" type="button"
+                    value="Отмена">
+            </div>
+        </div>
+    </div>
+</form>
 
 </html>

@@ -1,0 +1,71 @@
+.form__modal {
+    display: none;
+    /* Скрыто */
+}
+
+.form__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form__window-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #FFFFFF;
+    width: 20%;
+    height: 40%;
+}
+
+.form__label {
+
+    display: block;
+    margin-top: 10px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form__content-button {
+    margin-top: 20px;
+    text-align: right;
+
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.form__content-button-input {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form__content-button-input-submit {
+    background: #4CAF50;
+    color: white;
+}
+
+.form__content-button-input-cancellation {
+    background: #f44336;
+    color: white;
+}

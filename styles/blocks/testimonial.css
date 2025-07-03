@@ -37,6 +37,8 @@
 
     background: #E92129;
     color: white;
+
+    cursor: pointer;
 }
 
 .testimonial__slider{

@@ -20,7 +20,7 @@
 
     height: 183px;
 
-    transform: translateY(-300px);
+    transform: translateY(-350px);
 }
 
 .footer__connection {
@@ -38,7 +38,7 @@
     font-weight: 400;
 }
 
-.ffooter__connection-block {
+.footer__connection-block {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
